@@ -50,9 +50,11 @@ while running:
     handle_events()
     frame = (frame + 1) % 8
     x += dir1 * 5
-    # character.clip_draw(frame * 100, 100 * 1, 100, 100, x, y)
+    # character.clip_draw(frame * 100, 100 * a, 100, 100, x, y)
+    #a=1
     y += dir2 * 5
-    # character.clip_draw(frame * 100, 10 * 1, 100, 100, x, y)
+    # character.clip_draw(frame * 100, 100 * a, 100, 100, x, y)
+    #a=2
     delay(0.01)
 
 close_canvas()
