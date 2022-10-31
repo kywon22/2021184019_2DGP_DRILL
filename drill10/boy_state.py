@@ -5,7 +5,6 @@ import play_state
 
 running = True
 image = None
-people = 1
 
 def enter():
     global image
